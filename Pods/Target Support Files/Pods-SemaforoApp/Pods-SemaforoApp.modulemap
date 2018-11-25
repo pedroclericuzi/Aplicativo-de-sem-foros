@@ -1,0 +1,6 @@
+framework module Pods_SemaforoApp {
+  umbrella header "Pods-SemaforoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

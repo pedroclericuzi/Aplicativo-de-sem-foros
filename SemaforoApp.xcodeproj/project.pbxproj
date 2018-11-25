@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36F95C973FD0F3206F29C043 /* Pods_SemaforoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C38EE662945865B19E5E9A /* Pods_SemaforoApp.framework */; };
+		9E117D1521A9388600EC8FC8 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E117D1421A9388600EC8FC8 /* DetailsView.swift */; };
+		9E117D1721A9BFAD00EC8FC8 /* infoWinDetalhes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E117D1621A9BFAD00EC8FC8 /* infoWinDetalhes.xib */; };
+		9E117D1921AA3AED00EC8FC8 /* infoWinCurrentLoc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E117D1821AA3AED00EC8FC8 /* infoWinCurrentLoc.xib */; };
+		9E117D1B21AA3B0900EC8FC8 /* CurrentLocView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E117D1A21AA3B0900EC8FC8 /* CurrentLocView.swift */; };
+		9E117D2121AA649700EC8FC8 /* Detalhes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E117D2021AA649700EC8FC8 /* Detalhes.swift */; };
+		9E117D2621AA911A00EC8FC8 /* InfoWindowsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E117D2521AA911A00EC8FC8 /* InfoWindowsVM.swift */; };
+		9EECF44521A74981002C4950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EECF44421A74981002C4950 /* AppDelegate.swift */; };
+		9EECF44721A74981002C4950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EECF44621A74981002C4950 /* ViewController.swift */; };
+		9EECF44C21A74983002C4950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EECF44B21A74983002C4950 /* Assets.xcassets */; };
+		9EECF44F21A74983002C4950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EECF44D21A74983002C4950 /* LaunchScreen.storyboard */; };
+		9EFC54CA21A883B700446F5F /* Sinais.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC54C921A883B700446F5F /* Sinais.swift */; };
+		9EFC54CF21A8895A00446F5F /* SemaforosLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFC54CE21A8895A00446F5F /* SemaforosLista.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		324EFD591AD2E1E675263396 /* Pods-SemaforoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SemaforoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SemaforoApp/Pods-SemaforoApp.release.xcconfig"; sourceTree = "<group>"; };
+		748B446B6C52BDBEA4B4925D /* Pods-SemaforoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SemaforoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SemaforoApp/Pods-SemaforoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9E117D1421A9388600EC8FC8 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		9E117D1621A9BFAD00EC8FC8 /* infoWinDetalhes.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = infoWinDetalhes.xib; sourceTree = "<group>"; };
+		9E117D1821AA3AED00EC8FC8 /* infoWinCurrentLoc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = infoWinCurrentLoc.xib; sourceTree = "<group>"; };
+		9E117D1A21AA3B0900EC8FC8 /* CurrentLocView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocView.swift; sourceTree = "<group>"; };
+		9E117D2021AA649700EC8FC8 /* Detalhes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detalhes.swift; sourceTree = "<group>"; };
+		9E117D2521AA911A00EC8FC8 /* InfoWindowsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWindowsVM.swift; sourceTree = "<group>"; };
+		9EECF44121A74981002C4950 /* SemaforoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemaforoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EECF44421A74981002C4950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EECF44621A74981002C4950 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EECF44B21A74983002C4950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EECF44E21A74983002C4950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EECF45021A74983002C4950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EFC54C921A883B700446F5F /* Sinais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sinais.swift; sourceTree = "<group>"; };
+		9EFC54CE21A8895A00446F5F /* SemaforosLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaforosLista.swift; sourceTree = "<group>"; };
+		D8C38EE662945865B19E5E9A /* Pods_SemaforoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SemaforoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EECF43E21A74981002C4950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F95C973FD0F3206F29C043 /* Pods_SemaforoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E117D2221AA66A200EC8FC8 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				9E117D1621A9BFAD00EC8FC8 /* infoWinDetalhes.xib */,
+				9E117D1821AA3AED00EC8FC8 /* infoWinCurrentLoc.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		9EECF43821A74981002C4950 = {
+			isa = PBXGroup;
+			children = (
+				9EECF44321A74981002C4950 /* SemaforoApp */,
+				9EECF44221A74981002C4950 /* Products */,
+				F73182A2D6E8A89EB8A1B9BB /* Pods */,
+				C179866BDC0ED7F68C5C9A71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9EECF44221A74981002C4950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EECF44121A74981002C4950 /* SemaforoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EECF44321A74981002C4950 /* SemaforoApp */ = {
+			isa = PBXGroup;
+			children = (
+				9EFC54D021A904AC00446F5F /* View */,
+				9EFC54CD21A8893E00446F5F /* ViewModel */,
+				9EFC54C821A8839600446F5F /* Model */,
+				9EECF44421A74981002C4950 /* AppDelegate.swift */,
+				9EECF44B21A74983002C4950 /* Assets.xcassets */,
+				9EECF44D21A74983002C4950 /* LaunchScreen.storyboard */,
+				9EECF45021A74983002C4950 /* Info.plist */,
+			);
+			path = SemaforoApp;
+			sourceTree = "<group>";
+		};
+		9EFC54C821A8839600446F5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EFC54C921A883B700446F5F /* Sinais.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9EFC54CD21A8893E00446F5F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9EFC54CE21A8895A00446F5F /* SemaforosLista.swift */,
+				9E117D2521AA911A00EC8FC8 /* InfoWindowsVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9EFC54D021A904AC00446F5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E117D2221AA66A200EC8FC8 /* xib */,
+				9E117D2021AA649700EC8FC8 /* Detalhes.swift */,
+				9EECF44621A74981002C4950 /* ViewController.swift */,
+				9E117D1421A9388600EC8FC8 /* DetailsView.swift */,
+				9E117D1A21AA3B0900EC8FC8 /* CurrentLocView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C179866BDC0ED7F68C5C9A71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C38EE662945865B19E5E9A /* Pods_SemaforoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F73182A2D6E8A89EB8A1B9BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				748B446B6C52BDBEA4B4925D /* Pods-SemaforoApp.debug.xcconfig */,
+				324EFD591AD2E1E675263396 /* Pods-SemaforoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EECF44021A74981002C4950 /* SemaforoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EECF45321A74983002C4950 /* Build configuration list for PBXNativeTarget "SemaforoApp" */;
+			buildPhases = (
+				80368E21392B3B505910B865 /* [CP] Check Pods Manifest.lock */,
+				9EECF43D21A74981002C4950 /* Sources */,
+				9EECF43E21A74981002C4950 /* Frameworks */,
+				9EECF43F21A74981002C4950 /* Resources */,
+				2D3DE027422E4E81CB0F0CF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SemaforoApp;
+			productName = SemaforoApp;
+			productReference = 9EECF44121A74981002C4950 /* SemaforoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EECF43921A74981002C4950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Pedro Clericuzi";
+				TargetAttributes = {
+					9EECF44021A74981002C4950 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 9EECF43C21A74981002C4950 /* Build configuration list for PBXProject "SemaforoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EECF43821A74981002C4950;
+			productRefGroup = 9EECF44221A74981002C4950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EECF44021A74981002C4950 /* SemaforoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EECF43F21A74981002C4950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E117D1721A9BFAD00EC8FC8 /* infoWinDetalhes.xib in Resources */,
+				9EECF44F21A74983002C4950 /* LaunchScreen.storyboard in Resources */,
+				9EECF44C21A74983002C4950 /* Assets.xcassets in Resources */,
+				9E117D1921AA3AED00EC8FC8 /* infoWinCurrentLoc.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D3DE027422E4E81CB0F0CF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SemaforoApp/Pods-SemaforoApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SemaforoApp/Pods-SemaforoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80368E21392B3B505910B865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SemaforoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EECF43D21A74981002C4950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E117D2621AA911A00EC8FC8 /* InfoWindowsVM.swift in Sources */,
+				9EFC54CF21A8895A00446F5F /* SemaforosLista.swift in Sources */,
+				9E117D1521A9388600EC8FC8 /* DetailsView.swift in Sources */,
+				9EECF44721A74981002C4950 /* ViewController.swift in Sources */,
+				9E117D2121AA649700EC8FC8 /* Detalhes.swift in Sources */,
+				9EFC54CA21A883B700446F5F /* Sinais.swift in Sources */,
+				9EECF44521A74981002C4950 /* AppDelegate.swift in Sources */,
+				9E117D1B21AA3B0900EC8FC8 /* CurrentLocView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EECF44D21A74983002C4950 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EECF44E21A74983002C4950 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EECF45121A74983002C4950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EECF45221A74983002C4950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EECF45421A74983002C4950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748B446B6C52BDBEA4B4925D /* Pods-SemaforoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EN2NCDPUFG;
+				INFOPLIST_FILE = SemaforoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.semaforo.SemaforoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EECF45521A74983002C4950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324EFD591AD2E1E675263396 /* Pods-SemaforoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EN2NCDPUFG;
+				INFOPLIST_FILE = SemaforoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.semaforo.SemaforoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EECF43C21A74981002C4950 /* Build configuration list for PBXProject "SemaforoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EECF45121A74983002C4950 /* Debug */,
+				9EECF45221A74983002C4950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EECF45321A74983002C4950 /* Build configuration list for PBXNativeTarget "SemaforoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EECF45421A74983002C4950 /* Debug */,
+				9EECF45521A74983002C4950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EECF43921A74981002C4950 /* Project object */;
+}
